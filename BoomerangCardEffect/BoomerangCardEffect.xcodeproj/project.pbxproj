@@ -11,6 +11,9 @@
 		1253722428FC436D00E0707A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253722328FC436D00E0707A /* ContentView.swift */; };
 		1253722628FC436D00E0707A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1253722528FC436D00E0707A /* Assets.xcassets */; };
 		1253722A28FC436D00E0707A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1253722928FC436D00E0707A /* Preview Assets.xcassets */; };
+		1253723328FC44CC00E0707A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253723228FC44CC00E0707A /* Card.swift */; };
+		1253723528FC45D500E0707A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253723428FC45D500E0707A /* Home.swift */; };
+		1253723728FC4E0C00E0707A /* BoomerangCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253723628FC4E0C00E0707A /* BoomerangCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		1253722528FC436D00E0707A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1253722728FC436D00E0707A /* BoomerangCardEffect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoomerangCardEffect.entitlements; sourceTree = "<group>"; };
 		1253722928FC436D00E0707A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1253723228FC44CC00E0707A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1253723428FC45D500E0707A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1253723628FC4E0C00E0707A /* BoomerangCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomerangCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,8 @@
 		1253722028FC436D00E0707A /* BoomerangCardEffect */ = {
 			isa = PBXGroup;
 			children = (
+				1253723128FC44C300E0707A /* Model */,
+				1253723028FC44BB00E0707A /* View */,
 				1253722128FC436D00E0707A /* BoomerangCardEffectApp.swift */,
 				1253722328FC436D00E0707A /* ContentView.swift */,
 				1253722528FC436D00E0707A /* Assets.xcassets */,
@@ -67,6 +75,23 @@
 				1253722928FC436D00E0707A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1253723028FC44BB00E0707A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1253723428FC45D500E0707A /* Home.swift */,
+				1253723628FC4E0C00E0707A /* BoomerangCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1253723128FC44C300E0707A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1253723228FC44CC00E0707A /* Card.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1253723728FC4E0C00E0707A /* BoomerangCardView.swift in Sources */,
 				1253722428FC436D00E0707A /* ContentView.swift in Sources */,
+				1253723328FC44CC00E0707A /* Card.swift in Sources */,
+				1253723528FC45D500E0707A /* Home.swift in Sources */,
 				1253722228FC436D00E0707A /* BoomerangCardEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
