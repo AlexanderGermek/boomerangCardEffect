@@ -35,8 +35,14 @@ struct Home: View {
 
 	// MARK: Private functions
 	private func setupCards() {
-		for i in 1...4 {
+		for i in 2...4 {
 			cards.append(.init(imageName: "card\(i)"))
+		}
+
+		/// For infinitive cards
+		if var first = cards.first {
+			first.id = UUID().uuidString
+			cards.append(first)
 		}
 	}
 }
